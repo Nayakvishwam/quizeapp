@@ -1,0 +1,588 @@
+[
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Board Games",
+        "question": "What is the maximum level you can have in a single class in Dungeons and Dragons (5e)?",
+        "correct_answer": "20",
+        "incorrect_answers": [
+            "30",
+            "15",
+            "25"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "C#",
+            "Python",
+            "PHP"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "In the &quot;Call Of Duty: Zombies&quot; map &quot;Moon&quot;, there is a secondary called the QED. What does QED stand for?",
+        "correct_answer": "Quantum Entanglement Device",
+        "incorrect_answers": [
+            "Quad Ectoplasmic Driver",
+            "Question Every Dog",
+            "Quality Edward Device"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In the game Battleblock Theater, what was the name of the voice actor who voiced the narrator?",
+        "correct_answer": "Will Stamper",
+        "incorrect_answers": [
+            "Steve Blum",
+            "Richard Epcar",
+            "Yuri Lowenthal"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Sports",
+        "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+        "correct_answer": "Nine",
+        "incorrect_answers": [
+            "Ten",
+            "Seven",
+            "Eight"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In Pokemon Red &amp; Blue, what is the name of HM05?",
+        "correct_answer": "Flash",
+        "incorrect_answers": [
+            "Strength",
+            "Cut",
+            "Fly"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Film",
+        "question": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?",
+        "correct_answer": "The Vikings ",
+        "incorrect_answers": [
+            "The Long Ships",
+            "Prince Valiant",
+            "Spartacus"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science: Mathematics",
+        "question": "Which of these numbers is closest to the total number of possible states for an army standard Enigma Machine?",
+        "correct_answer": "1.58 x 10^20",
+        "incorrect_answers": [
+            "1.58 x 10^22",
+            "1.58 x  10^18",
+            "1.58 x 10^24"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Entertainment: Music",
+        "question": "Green Day&#039;s album &#039;American Idiot&#039; is considered a &quot;punk rock opera.&quot;",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "General Knowledge",
+        "question": "What is the profession of Elon Musk&#039;s mom, Maye Musk?",
+        "correct_answer": "Model",
+        "incorrect_answers": [
+            "Professor",
+            "Biologist",
+            "Musician"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Board Games",
+        "question": "At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?",
+        "correct_answer": "Electric Company",
+        "incorrect_answers": [
+            "Water Works",
+            "Chance",
+            "Community Chest"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Animals",
+        "question": "What bird is born with claws on its wing digits?",
+        "correct_answer": "Hoatzin",
+        "incorrect_answers": [
+            "Cormorant",
+            "Cassowary",
+            "Secretary bird"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Comics",
+        "question": "In the Hellboy universe, what was Abe Sapien&#039;s birth name?",
+        "correct_answer": "Langdon Everett Caul",
+        "incorrect_answers": [
+            "Lord Baltimore",
+            "Sir Edward Grey",
+            "Landis Pope"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Japanese Anime &amp; Manga",
+        "question": "In &quot;One Piece&quot;, who is the girl who overcame her enslaved past and became an agent of an army to fight the corrupt government?",
+        "correct_answer": "Koala",
+        "incorrect_answers": [
+            "Boa Hancock",
+            "Nico Robin",
+            "Emporio Ivankov "
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Vehicles",
+        "question": "Which Variable Valve Timing technology is used by BMW?",
+        "correct_answer": "VANOS",
+        "incorrect_answers": [
+            "VVT-iw",
+            "VVEL",
+            "MultiAir"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Vehicles",
+        "question": "Enzo Ferrari was originally an auto racer for what manufacturer before founding his own car company?",
+        "correct_answer": "Alfa Romeo",
+        "incorrect_answers": [
+            "Auto Union",
+            "Mercedes Benz",
+            "Bentley"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Cartoon &amp; Animations",
+        "question": "The song &#039;Little April Shower&#039; features in which Disney cartoon film?",
+        "correct_answer": "Bambi",
+        "incorrect_answers": [
+            "Cinderella",
+            "Pinocchio",
+            "The Jungle Book"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Music",
+        "question": "Irish musician Hozier released a music track in 2013 titled, &quot;Take Me to ______&quot;",
+        "correct_answer": "Church",
+        "incorrect_answers": [
+            "Mosque",
+            "Synagogue",
+            "Temple"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Film",
+        "question": "What is the name of the assassin in the first &quot;Hellboy&quot; movie?",
+        "correct_answer": "Karl Ruprecht Kroenen",
+        "incorrect_answers": [
+            "Klaus Werner von Krupt",
+            "Grigori Efimovich Rasputin",
+            "Ilsa Haupstein"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In which series of games do you collect souls to empower you and buy weaponry and armor with?",
+        "correct_answer": "Souls ",
+        "incorrect_answers": [
+            "Final Fantasy ",
+            "Monster Hunter",
+            "The Legend of Zelda"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Film",
+        "question": "What was Bruce Campbell&#039;s iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+        "correct_answer": "Groovy.",
+        "incorrect_answers": [
+            "Gnarly.",
+            "Perfect.",
+            "Nice."
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Japanese Anime &amp; Manga",
+        "question": "What studio animated Ouran High School Host Club?",
+        "correct_answer": "Bones",
+        "incorrect_answers": [
+            "Production I.G",
+            "Kyoto Animation",
+            "xebec"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Science: Mathematics",
+        "question": "You can square root a negative number with an imaginary number &quot;i&quot;.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science &amp; Nature",
+        "question": "What is the official name of the star located closest to the North Celestial Pole?",
+        "correct_answer": "Polaris",
+        "incorrect_answers": [
+            "Eridanus",
+            "Gamma Cephei",
+            "Iota Cephei"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Television",
+        "question": "Klingons express emotion in art through opera and poetry.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Celebrities",
+        "question": "What was the name of Marilyn Monroe&#039;s first husband?",
+        "correct_answer": "James Dougherty",
+        "incorrect_answers": [
+            "Joe Dimaggio",
+            "Kirk Douglas",
+            "Arthur Miller"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Video Games",
+        "question": "In the video game, Half-life, what event started the Half-life universe as we know today?",
+        "correct_answer": "The Resonance Cascade",
+        "incorrect_answers": [
+            "World War 3",
+            "The Xen Attack",
+            "The Black Mesa Nuke"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "The HTML5 standard was published in 2014.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Comics",
+        "question": "What is Homestuck character Gamzee&#039;s last name?",
+        "correct_answer": "Makara",
+        "incorrect_answers": [
+            "Makera",
+            "Makare",
+            "Makrea"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Video Games",
+        "question": "How many trophies are there in &quot;Super Smash Bros. for Nintendo 3DS&quot;?",
+        "correct_answer": "685",
+        "incorrect_answers": [
+            "1360",
+            "716",
+            "1155"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Music",
+        "question": "Which Toronto landmark was featured on the cover art of Canadian rapper Drake&#039;s 2016 album &quot;Views&quot;?",
+        "correct_answer": "CN Tower",
+        "incorrect_answers": [
+            "Allan Gardens",
+            "Union Station",
+            "Prince of Wales Theatre"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "In the  Rossini opera, what was the name of &#039;The Barber of Seville&#039;?",
+        "correct_answer": "Figaro",
+        "incorrect_answers": [
+            "Angelo",
+            "Fernando",
+            "Dave"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "In the game &quot;Persona 4&quot;, what is the canonical name of the protagonist?",
+        "correct_answer": "Yu Narukami",
+        "incorrect_answers": [
+            "Chino Mashido",
+            "Tunki Sunada",
+            "Masaki Narinaka"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Video Games",
+        "question": "What animal is on Link&#039;s pajamas in The Legend of Zelda: The Wind Waker?",
+        "correct_answer": "Crawfish",
+        "incorrect_answers": [
+            "Lobster",
+            "Salmon",
+            "Swordfish"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "General Knowledge",
+        "question": "Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?",
+        "correct_answer": "World War II",
+        "incorrect_answers": [
+            "Vietnam War",
+            "American Civil War",
+            "American Revolutionary War"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Television",
+        "question": "In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?",
+        "correct_answer": "He&#039;s the big kahuna.",
+        "incorrect_answers": [
+            "To find out where all the bananas are.",
+            "Because Diddy Kong forced him.",
+            "He wants to punish brutes."
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "Which of the following has Jennifer Taylor NOT voiced?",
+        "correct_answer": "Sarah Kerrigan",
+        "incorrect_answers": [
+            "Princess Peach",
+            "Zoey",
+            "Cortana"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "History",
+        "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+        "correct_answer": "St. Helena",
+        "incorrect_answers": [
+            "Elba",
+            "Corsica",
+            "Canary"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science &amp; Nature",
+        "question": "Which of the following is considered classical conditioning?",
+        "correct_answer": "Pavlov&#039;s dog experiments",
+        "incorrect_answers": [
+            "Skinner box experiment",
+            "Schr&ouml;dinger&#039;s cat experiment",
+            "Harlow&rsquo;s monkey experiments"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Video Games",
+        "question": "Which game was the first time Mario was voiced by Charles Martinet?",
+        "correct_answer": "Mario&#039;s Game Gallery",
+        "incorrect_answers": [
+            "Super Mario 64",
+            "Mario Tennis",
+            "Dr. Mario 64"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Japanese Anime &amp; Manga",
+        "question": "What year did &quot;Attack on Titan&quot; first air?",
+        "correct_answer": "2013",
+        "incorrect_answers": [
+            "2014",
+            "2012",
+            "2015"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Film",
+        "question": "In the 1964 film &quot;Zulu&quot;, what song does the British Army company sing before the final battle?",
+        "correct_answer": "Men of Harlech",
+        "incorrect_answers": [
+            "Scotland the Brave",
+            "Colonel Bogey March",
+            "The British Grenadiers"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Politics",
+        "question": "There was a satirical candidate named &quot;Deez Nuts&quot; running in the 2016 US presidential elections.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Board Games",
+        "question": "What do you declare in Rīchi Mahjong when you&#039;ve drawn your winning tile?",
+        "correct_answer": "Tsumo",
+        "incorrect_answers": [
+            "Ron",
+            "Rīchi",
+            "Kan"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "From which country did the song &quot;Gangnam Style&quot; originate from?",
+        "correct_answer": "South Korea",
+        "incorrect_answers": [
+            "Japan",
+            "North Korea",
+            "China"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "medium",
+        "category": "Sports",
+        "question": "ATP tennis hosted several tournaments on carpet court before being replaced to reduce injuries.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "boolean",
+        "difficulty": "easy",
+        "category": "Entertainment: Music",
+        "question": "In 1993, Prince changed his name to an unpronounceable symbol because he was unhappy with his contract with Warner Bros.",
+        "correct_answer": "True",
+        "incorrect_answers": [
+            "False"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Television",
+        "question": "Prior to working at Wizards of the Coast, &quot;Mark Rosewater&quot; was a writer for which show?",
+        "correct_answer": "Roseanne",
+        "incorrect_answers": [
+            "Boy Meets World",
+            "The X-Files",
+            "NYPD Blue"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Science: Computers",
+        "question": "Laserjet and inkjet printers are both examples of what type of printer?",
+        "correct_answer": "Non-impact printer",
+        "incorrect_answers": [
+            "Impact printer",
+            "Daisywheel printer",
+            "Dot matrix printer"
+        ]
+    },
+    {
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Music",
+        "question": "What is the first track on Kanye West&#039;s 808s &amp; Heartbreak?",
+        "correct_answer": "Say You Will",
+        "incorrect_answers": [
+            "Welcome to Heartbreak",
+            "Street Lights",
+            "Heartless"
+        ]
+    }
+]
