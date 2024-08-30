@@ -11,6 +11,7 @@ module.exports = function Users(mongoose) {
         email: {
             type: String,
             required: true,
+            unique: true,
             match: [/.+\@.+\..+/, 'Please enter a valid email']
         },
         mobileno: {

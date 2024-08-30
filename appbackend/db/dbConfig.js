@@ -14,4 +14,5 @@ mongoose.connect(mongoURI + database, {
         console.error('MongoDB connection error:', err);
     });
 let models = initModels(mongoose);
-module.exports = models;
+
+module.exports = { models };

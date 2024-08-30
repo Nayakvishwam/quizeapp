@@ -1,0 +1,14 @@
+{
+    "users": {
+        "firstname": "Mitchell Admin",
+        "lastname": "admin",
+        "email": "admin@gmail.com",
+        "mobileno": "8956783212",
+        "password": "Admin@123",
+        "gender": "male",
+        "country": "India",
+        "state": "Gujarat",
+        "dob": "2002-02-02",
+        "hobby": "Play cricket"
+    }
+}
