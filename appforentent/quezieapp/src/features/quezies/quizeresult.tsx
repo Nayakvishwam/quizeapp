@@ -10,6 +10,7 @@ export default function QuizeResult() {
         dispatch(queziesAnswersAction({ id }))
     }, []);
     const quezies = useSelector(state => state.queziesReducer.response);
+    let total=0;
     return (
         <>
             {quezies && (
@@ -26,6 +27,7 @@ export default function QuizeResult() {
                     <tbody>
                         {
                             quezies?.map((data, index) => {
+                                total+=data?.total;
                                 return (< tr >
                                     <td>{index + 1}</td>
                                     <td>{data?.questionid?.question}</td>
@@ -38,6 +40,7 @@ export default function QuizeResult() {
                     </tbody>
                 </table >)
             }
+            <p style={{display:"flex",marginRight:12,justifyContent:"right"}}>Total:- {total}</p>
         </>
     )
 }

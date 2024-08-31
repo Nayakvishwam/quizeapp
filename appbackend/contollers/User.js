@@ -20,7 +20,6 @@ async function login(req, res) {
     try {
         let userData = req.body;
         let exists = await models._users.exists({ email: userData.email });
-        console.log(exists);
         if (exists) {
             let user = await models._users.findById(exists?._id);
             let allow = await verifyPassword(userData.password, user.password);

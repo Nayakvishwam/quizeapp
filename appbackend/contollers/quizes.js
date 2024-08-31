@@ -84,7 +84,6 @@ async function QuizesQuestionsAnswers(req, res) {
         let base = await baseOfLoginUser(authorization);
         let params = req.params;
         let data = await models._quizesquestionslines.find({ userid: base, quizeid: params.id }).populate('questionid', 'correctanswer question').exec();;
-        console.log(data);
         return res.status(200).send({ message: "Get quzies successfully!", status_code: 200, data: data });
     } catch (error) {
         console.log(error)

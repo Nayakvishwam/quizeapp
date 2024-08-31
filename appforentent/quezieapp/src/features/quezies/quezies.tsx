@@ -31,13 +31,6 @@ function Quize(): JSX.Element {
     const quezies = useSelector(state => state.queziesReducer.quezies);
     const [checkdboxoption, setCheckBoxOption] = useState<Object>({});
     const [questionNumber, setQuestionNumber] = useState<Number>(0);
-    const handleQuestionNumber = (operation: String) => {
-        if (operation == "add") {
-            setQuestionNumber(questionNumber == 9 ? 9 : questionNumber + 1);
-        } else {
-            setQuestionNumber(questionNumber == 0 ? 0 : questionNumber - 1);
-        }
-    };
     const handleOption = (event) => {
         let questiondata = { ...totalquelize[questionNumber] };
         questiondata.correctAnswer = event.target.value;
@@ -121,8 +114,8 @@ function Quize(): JSX.Element {
                             <span>
                                 <p>
                                     {questionNumber + 1}/10
-                                    <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("reduce")}>{"<"}</Link>
-                                    <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("add")}>{">"}</Link>
+                                    {/* <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("reduce")}>{"<"}</Link>
+                                    <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("add")}>{">"}</Link> */}
                                 </p>
                             </span>
                         </div>

@@ -58,7 +58,7 @@ export default function Login(): JSX.Element {
                             <button type="submit" className="btn btn-primary w-100">Login</button>
                         </form>
                         <div className="text-center mt-3">
-                            <Link to="/register" className="small" style={{ textDecoration: "none" }}>Donot have account?</Link>
+                            <Link to="/app/register" className="small" style={{ textDecoration: "none" }}>Donot have account?</Link>
                         </div>
                     </div>
                 </div>
