@@ -26,10 +26,6 @@ module.exports = function Users(mongoose) {
             type: String,
             required: true
         },
-        country: {
-            type: String,
-            required: true
-        },
         state: {
             type: String,
             required: true
@@ -39,7 +35,7 @@ module.exports = function Users(mongoose) {
             required: true
         },
         hobby: {
-            type: String,
+            type: Array,
             required: true
         }
     });

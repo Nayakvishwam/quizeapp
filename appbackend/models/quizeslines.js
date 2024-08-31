@@ -13,10 +13,9 @@ module.exports = function QuizesLines(mongoose) {
             required: true
         },
         total: {
-            type: Number,
-            required: true
+            type: Number
         }
     });
-    let quizes = mongoose.model('quizeslineas', quizesschema);
+    let quizes = mongoose.model('quizelines', quizesschema);
     return quizes;
 }
