@@ -1,19 +1,20 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { queziesAnswersAction } from "./redux/queziesSlice";
+import { queziesAnswersAction, resetResponse } from "./redux/queziesSlice";
 import { useParams } from "react-router";
 
 export default function QuizeResult() {
     let { id } = useParams();
     let dispatch = useDispatch();
     useEffect(() => {
+        dispatch(resetResponse());
         dispatch(queziesAnswersAction({ id }))
     }, []);
     const quezies = useSelector(state => state.queziesReducer.response);
-    let total=0;
+    let total = 0;
     return (
         <>
-            {quezies && (
+            {quezies && quezies?.length > 0 && (
                 <table className="table">
                     <thead>
                         <tr>
@@ -26,8 +27,8 @@ export default function QuizeResult() {
                     </thead>
                     <tbody>
                         {
-                            quezies?.map((data, index) => {
-                                total+=data?.total;
+                            quezies?.length > 0 && (quezies?.map((data, index) => {
+                                total += data?.total;
                                 return (< tr >
                                     <td>{index + 1}</td>
                                     <td>{data?.questionid?.question}</td>
@@ -35,12 +36,12 @@ export default function QuizeResult() {
                                     <td>{data?.questionid?.correctanswer}</td>
                                     <td>{data?.total}</td>
                                 </tr>)
-                            })
+                            }))
                         }
                     </tbody>
                 </table >)
             }
-            <p style={{display:"flex",marginRight:12,justifyContent:"right"}}>Total:- {total}</p>
+            <p style={{ display: "flex", marginRight: 12, justifyContent: "right" }}>Total:- {total}</p>
         </>
     )
 }

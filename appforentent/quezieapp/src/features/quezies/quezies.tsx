@@ -54,11 +54,12 @@ function Quize(): JSX.Element {
             intervalRef.current = setInterval(() => {
                 setTime((prevTime) => prevTime + 10); // Increment by 10ms
             }, 10);
+            return
         } else if (!isRunning && intervalRef.current) {
             clearInterval(intervalRef.current);
             intervalRef.current = null;
+            return
         }
-
         return () => {
             if (intervalRef.current) {
                 clearInterval(intervalRef.current);
@@ -90,20 +91,7 @@ function Quize(): JSX.Element {
         }
         return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}:${String(milliseconds).padStart(2, '0')}`;
     };
-
-    const CurrentQuestion: Function = () => {
-        let questiondata = quezies[questionNumber];
-        return <div className="card">
-            <div className="card-body">
-                {questiondata?.question}
-                <ul className="list-group list-group-flush mt-3">
-                    {questiondata?.options?.map((option: String, index) => {
-                        return <li className="list-group-item" key={index}><input type="radio" defaultChecked={checkdboxoption[questiondata.id] == option} value={option} id={questiondata.id} name="option" onClick={(event) => { handleOption(event) }}></input><span style={{ marginLeft: 30 }}>{option}</span></li>
-                    })}
-                </ul>
-            </div>
-        </div>
-    }
+    let questiondata = quezies ? quezies[questionNumber] : [];
     return (
         <>
             {alertData?.show && (<SnackbarComponent {...alertData} />)}
@@ -114,13 +102,24 @@ function Quize(): JSX.Element {
                             <span>
                                 <p>
                                     {questionNumber + 1}/10
-                                    {/* <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("reduce")}>{"<"}</Link>
-                                    <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("add")}>{">"}</Link> */}
+                                    {/* <Link className="btn" role="button" data-bs-toggle="button" onClick={() => handleQuestionNumber("reduce")}>{"<"}</Link> */}
+                                    <Link className="btn" role="button" data-bs-toggle="button" onClick={() => setQuestionNumber(questionNumber < 9 ? questionNumber + 1 : questionNumber)}>{">"}</Link>
                                 </p>
                             </span>
                         </div>
-                        {<CurrentQuestion />}
-                        {questionNumber + 1 == quezies?.length && Object.values(checkdboxoption)?.length == 10 ? <div className="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
+                        <div className="card">
+                            <div className="card-body">
+                                {questiondata?.question}
+                                <ul className="list-group list-group-flush mt-3">
+                                    {questiondata?.options?.map((option: String, index) => {
+                                        return <li className="list-group-item" key={option+index}><input type="radio" defaultChecked={checkdboxoption[questiondata.id] == option} value={option} id={questiondata.id} name="option" onClick={(event) => {
+                                            handleOption(event)
+                                        }}></input><span style={{ marginLeft: 30 }}>{option}</span></li>
+                                    })}
+                                </ul>
+                            </div>
+                        </div>
+                        {questionNumber==9 && (<div className="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
                             <button className="btn btn-primary me-md-2" type="button" onClick={async () => {
                                 let data = Object.values(totalquelize);
                                 let response = await dispatch(quizesDetailAction(data));
@@ -140,7 +139,7 @@ function Quize(): JSX.Element {
                                     });
                                 }
                             }}>Submit</button>
-                        </div> : null}
+                        </div>)}
                         {formatTime(time)}
                     </>
                 )

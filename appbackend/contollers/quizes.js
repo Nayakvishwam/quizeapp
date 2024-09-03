@@ -39,14 +39,11 @@ async function submitQuize(req, res) {
             for (let question of questions) {
                 let data = await models._questions.findById({ _id: question.id });
                 if (data) {
-                    if (data.correctAnswer == question.correctAnswer) {
-
-                    }
-                    data.correctAnswer == question.correctAnswer ? total += 10 : false;
+                    data.correctanswer == question.correctAnswer ? total += 10 : false;
                     await models._quizesquestionslines.create({
                         userid: allow,
-                        total: data.correctAnswer == question.correctAnswer ? 10 : 0,
-                        correct: data.correctAnswer == question.correctAnswer ? 10 : 0,
+                        total: data.correctanswer == question.correctAnswer ? 10 : 0,
+                        correct: data.correcanswer == question.correctAnswer ? true : false,
                         quizeid: quizeline._id.toString(),
                         questionid: data?._id
                     });

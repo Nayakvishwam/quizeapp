@@ -10,6 +10,7 @@ export default function QuizResults(): JSX.Element {
         dispatch(queziesDataAction());
     }, []);
     const queziesDataDetails = useSelector(state => state.queziesReducer.response);
+    console.log(queziesDataDetails);
     return (
         <table className="table">
             <thead>
@@ -22,7 +23,7 @@ export default function QuizResults(): JSX.Element {
                 </tr>
             </thead>
             <tbody>
-                {queziesDataDetails?.map((data,index) => {
+                {queziesDataDetails?.length>0 && (queziesDataDetails?.map((data,index) => {
                     return (<tr key={index}>
                         <th scope="row">{index+1}</th>
                         <td>{data?._id}</td>
@@ -34,7 +35,7 @@ export default function QuizResults(): JSX.Element {
                             </Link>
                         </td>
                     </tr>)
-                })
+                }))
                 }
             </tbody>
         </table>

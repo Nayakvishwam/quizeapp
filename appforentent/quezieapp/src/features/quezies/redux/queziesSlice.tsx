@@ -46,6 +46,9 @@ export const queziesSlice = createSlice({
     name: "quizes",
     initialState,
     reducers: {
+        resetResponse:(state)=>{
+            state.response=null;
+        }
     },
     extraReducers: (builder) => {
         builder.addCase(queziesAction.pending, (state) => {
@@ -82,5 +85,6 @@ export const queziesSlice = createSlice({
         });
     }
 });
+export const {resetResponse}=queziesSlice.actions;
 export const queziesActions = queziesSlice.actions;
 export default queziesSlice.reducer;
